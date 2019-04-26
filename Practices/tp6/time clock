@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+#define N 100000000
+
+int main()
+{
+	int i;
+	double mean=0.0;
+	
+	srand(time(NULL));
+	
+	clock_t begin = clock();
+	for (i=0;i<N;i++)
+	{
+		mean += (double)rand()/RAND_MAX;
+	}
+	clock_t end = clock();
+	
+	double time_spent = (double)(end - begin) / CLOCKS_PER_SEC;
+	printf("La media de %d numeros random es %lf\n", N,mean/N);
+	printf("El tiempo empleado es: %lf segundos de CPU\n",time_spent);
+	
+	return 0;
+}
+

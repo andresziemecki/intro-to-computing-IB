@@ -1,0 +1,1 @@
+En el ejercicio 5 como paro el while sin usar numeros, es decir con el puntero NULL porque no me anda
