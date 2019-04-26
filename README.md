@@ -2,7 +2,7 @@
 Lectures and problems of Introduction to Computing at Balseiro Institute
 Schedule of the subject:
 
-Introduction to algorithms.
+Introduction to algorithms.'\n'
 Decomposition of problems in subproblems.
 Sequential flow.
 Conditional flow.
